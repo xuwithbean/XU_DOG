@@ -13,7 +13,7 @@ Here are the pictures of the dog.
 ## References
 The source and the ideas I'd refered to.
 ## Contributors
-![XU](./contributors/xu.jpg)
+![XU](contributors/xu.jpg)
 # Usage
 The way to make the dog and run the dog.
 ## Perparation
