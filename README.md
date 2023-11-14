@@ -11,7 +11,7 @@ Here are teh design of mechanial structure of the dog
 ## Picture
 Here are the pictures of the dog.
 ## References
-The source and the ideas I'd refered to.
+The source and the ideas I'd referred to.
 ## Contributors
 ![XU](contributors/xu.jpg)
 # Usage
