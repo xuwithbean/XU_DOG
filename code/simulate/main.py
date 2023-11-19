@@ -2,13 +2,14 @@ import os
 import time 
 import numpy as np
 import threading as trd
-import matplotlib as plt
+from matplotlib import pyplot as plt
 class timesim:
     def print_time(threadName, delay, counter):
         while counter:
             time.sleep(delay)
             print ("%s: %s" % (threadName, time.ctime(time.time())))
             counter -= 1
+
 class simthread:
     threads=[]
     class timethread(trd.Thread):
@@ -131,9 +132,51 @@ class console:
         simthread.consolethread(1,"consolethread1",1).run()
         print("init the consolethread")
 
+class param:
+    class body:
+        width = 15*2
+        length = 41*2
+        shoulderlen = 9.88
+        thighlen = 22.0
+        shanklen = 22.2
+        id = ["ftlf","frrt","bhlf","bhrt"]
+        leg_pos = [(width,length),(-width,length),(width,-length),(-width,-length)]
+    class valuecount:
+        id = ["ftlf","frrt","bhlf","bhrt"]
+        shoulder = [0,0,0,0]
+        thigh = [0,0,0,0]
+        shank = [0,0,0,0]
+    class log:
+        time=''
+        value=['','','','','']
+        def readlog(filex):
+            with open(filex,'r') as f:
+                line = f.readline()
+                print("the record's date is\n")
+                print(line)
+                while 1:
+                    line = f.readline()
+                    if len(line) == 0:
+                        print("log read finished")
+                        break
+                    ang = line.split(',')
+                    if len(ang) != 5:
+                        break
+                    cnt=0
+                    param.log.value=[0,0,0,0,'']
+                    while cnt<=4:               
+                        param.log.value[cnt]=float(ang[cnt])
+                        cnt=cnt+1
+                    if param.log.value[5] != '#':
+                        break
+
 class anim:
     def drawleg():
-        print("drawleg")
+        fig=plt.figure()
+        ax=fig.add_subplot(111,ptojection="3d")
+        ax.plot()
 
 if __name__=='__main__':
+    #anim.drawleg()
+    #param.log.readlog('./code/log/log.txt')
     console.consoletrdinit()
