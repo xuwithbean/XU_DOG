@@ -1,0 +1,75 @@
+The system is: Windows - 10.0.22631 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: F:/VS2022/IDE/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.34.31937 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.34.31937.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "F:/GitHub/XU_DOG/location/eskf-gps-imu/build/CMakeFiles/3.24.202208181-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: F:/VS2022/IDE/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.34.31937 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.34.31937.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "F:/GitHub/XU_DOG/location/eskf-gps-imu/build/CMakeFiles/3.24.202208181-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/GitHub/XU_DOG/location/eskf-gps-imu/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_a1629\fast && 	F:\VS2022\IDE\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\nmake.exe  -f CMakeFiles\cmTC_a1629.dir\build.make /nologo -L                  CMakeFiles\cmTC_a1629.dir\build
+Building C object CMakeFiles/cmTC_a1629.dir/CMakeCCompilerABI.c.obj
+	F:\VS2022\IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_a1629.dir\CMakeCCompilerABI.c.obj.d --working-dir=F:\GitHub\XU_DOG\location\eskf-gps-imu\build\CMakeFiles\CMakeTmp --filter-prefix="注意: 包含文件:  " -- F:\VS2022\IDE\VC\Tools\MSVC\14.34.31933\bin\Hostx64\x86\cl.exe @C:\Users\xu\Temp\nmE3F8.tmp
+CMakeCCompilerABI.c
+?鈷? 鍖呭惈鏂囦欢:  F:\VS2022\IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCompilerABI.h
+Linking C executable cmTC_a1629.exe
+	F:\VS2022\IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_a1629.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\mt.exe --manifests -- F:\VS2022\IDE\VC\Tools\MSVC\14.34.31933\bin\Hostx64\x86\link.exe /nologo @CMakeFiles\cmTC_a1629.dir\objects1.rsp @C:\Users\xu\Temp\nmE60D.tmp
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: F:/GitHub/XU_DOG/location/eskf-gps-imu/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_68fe3\fast && 	F:\VS2022\IDE\VC\Tools\MSVC\14.34.31933\bin\HostX64\x86\nmake.exe  -f CMakeFiles\cmTC_68fe3.dir\build.make /nologo -L                  CMakeFiles\cmTC_68fe3.dir\build
+Building CXX object CMakeFiles/cmTC_68fe3.dir/CMakeCXXCompilerABI.cpp.obj
+	F:\VS2022\IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_68fe3.dir\CMakeCXXCompilerABI.cpp.obj.d --working-dir=F:\GitHub\XU_DOG\location\eskf-gps-imu\build\CMakeFiles\CMakeTmp --filter-prefix="注意: 包含文件:  " -- F:\VS2022\IDE\VC\Tools\MSVC\14.34.31933\bin\Hostx64\x86\cl.exe @C:\Users\xu\Temp\nmEA71.tmp
+CMakeCXXCompilerABI.cpp
+?鈷? 鍖呭惈鏂囦欢:  F:\VS2022\IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCompilerABI.h
+Linking CXX executable cmTC_68fe3.exe
+	F:\VS2022\IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_68fe3.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\mt.exe --manifests -- F:\VS2022\IDE\VC\Tools\MSVC\14.34.31933\bin\Hostx64\x86\link.exe /nologo @CMakeFiles\cmTC_68fe3.dir\objects1.rsp @C:\Users\xu\Temp\nmEB3D.tmp
+
+
+
